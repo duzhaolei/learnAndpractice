@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style lang="less">
+        #box {
+            width: 200px;
+            height: 200px;
+            margin: 100px auto 0 auto;
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            transform-origin: 100px 100px 0px;
+            /*transform: rotateX(-90deg) ;*/
+            animation: cude3D ease-in-out infinite 3s;
+        }
+
+        .bgimg {
+            width: 200px;
+            height: 200px;
+            border: 3px solid deepskyblue;
+            box-sizing: border-box;
+            position: absolute;
+            /*top:50px;*/
+            /*left: calc(50% - 100px);*/
+            display: inline-block;
+            font-size: 40px;
+            font-weight: 700;
+            background-image: url(./bgimg.png);
+            background-repeat: no-repeat;
+            -webkit-background-size: 100% 100%;
+            background-size: 100% 100%;
+            background-position: center center;
+
+        }
+
+        #box>div:nth-of-type(1) {
+            transform: translateZ(100px);
+        }
+
+        #box>div:nth-of-type(2) {
+            transform:  rotateY(-90deg) translateZ(100px);
+        }
+
+        #box>div:nth-of-type(3) {
+            transform: rotateX(180deg) translateZ(100px);
+        }
+
+        #box>div:nth-of-type(4) {
+            transform: rotateY(90deg) translateZ(100px);
+        }
+
+        #box>div:nth-of-type(5) {
+            transform: rotateX(-90deg) translateZ(100px);
+        }
+
+        #box>div:nth-of-type(6) {
+            transform: rotateX(90deg) translateZ(100px);
+        }
+        
+        @keyframes cude3D {
+            from,to{}
+            16%{
+                 transform: rotateX(-90deg);
+             }
+            33%{
+                transform: rotateX(-90deg) rotateZ(135deg);
+            }
+            50%{
+                transform: rotateY(225deg) rotateZ(135deg);
+            }
+            66%{
+                transform: rotateY(135deg) rotateZ(135deg);
+            }
+            83%{
+                transform: rotateX(135deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="box">
+    <div class="bgimg">A</div>
+    <div class="bgimg">B</div>
+    <div class="bgimg">C</div>
+    <div class="bgimg">D</div>
+    <div class="bgimg">E</div>
+    <div class="bgimg">F</div>
+</div>
+
+</body>
+</html>
