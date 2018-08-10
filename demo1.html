@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>img测试网速</title>
+</head>
+<body>
+<img crossorigin="anonymous" src="ok.png" alt="">
+<script>
+    var start = Date.now()
+    var image = new Image();
+    // image.crossOrigin = 'anonymous';
+    image.src = "https://selfservicestore.oss-cn-shanghai.aliyuncs.com/20180807/imgpath/5bb504da-7df1-4736-b00d-1f2fd85ca03a";
+    image.onload = function () {
+        var end = Date.now();
+        var speed = 4 / (end - start) * 1000;
+        console.log(speed)
+    }
+    var newImg = new Image()
+    image.src =
+        'https://selfservicestore.oss-cn-shanghai.aliyuncs.com/20180807/imgpath/5bb504da-7df1-4736-b00d-1f2fd85ca03a?name=duzhaolei'
+</script>
+</body>
+</html>
