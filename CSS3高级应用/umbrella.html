@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #umberlla {
+            width: 400px;
+            height: 200px;
+            margin: 50px auto 0;
+            text-align: center;
+            border: 3px solid #000;
+            position: relative;
+            text-align: center;
+            border-top-left-radius: 200px;
+            border-top-right-radius: 200px;
+            background: radial-gradient( 40px 162px ellipse at bottom, transparent 0px,red 0px,red 49px,transparent 50px),
+        radial-gradient(40px 80px ellipse at bottom center, transparent 50px,blue 50px,blue 99px,transparent 100px),
+        radial-gradient(40px 54px ellipse at bottom center, transparent 100px,green 100px,green 149px,transparent 150px),radial-gradient(40px 68px ellipse at bottom center, transparent 150px,deepskyblue 150px,deepskyblue 199px,transparent 200px);
+        }
+        #umberlla:before{
+            content: '';
+            width: 20px;
+            height: 20px;
+            display: block;
+            position: absolute;
+            top: -20px;
+            left: 190px;
+            box-sizing: border-box;
+            border: 3px solid gray;
+            border-radius: 50%;
+            background-color: darkgrey;
+        }
+        #umberlla:after{
+            content: '';
+            display: inline-block;
+            width: 5px;
+            height: 300px;
+            background-color: #000;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="umberlla">
+
+</div>
+
+</body>
+</html>
