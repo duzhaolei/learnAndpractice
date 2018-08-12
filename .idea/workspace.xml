@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/CSS3高级应用/umbrella.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="29" column="7" lean-forward="true" selection-end-line="37" selection-end-column="7" />
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -45,8 +45,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CSS3D/3DCube.html" />
-        <option value="$PROJECT_DIR$/CSS3高级应用/umbrella.html" />
         <option value="$PROJECT_DIR$/CSS3D/3Dworld.html" />
+        <option value="$PROJECT_DIR$/CSS3高级应用/umbrella.html" />
       </list>
     </option>
   </component>
@@ -59,7 +59,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1105" />
     <option name="y" value="109" />
     <option name="width" value="1402" />
@@ -138,12 +138,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533867402579</updated>
       <workItem from="1533867403975" duration="8049000" />
-      <workItem from="1534056000232" duration="22858000" />
+      <workItem from="1534056000232" duration="22957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30907000" />
+    <option name="totallyTimeSpent" value="31006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1105" y="109" width="1402" height="1047" extended-state="0" />
@@ -206,7 +206,7 @@
     <entry file="file://$PROJECT_DIR$/CSS3高级应用/umbrella.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="29" column="7" lean-forward="true" selection-end-line="37" selection-end-column="7" />
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
         </state>
       </provider>
     </entry>
