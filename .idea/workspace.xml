@@ -17,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3Dworld.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3Dworld.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS3D/3Dworld.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="107">
+              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="umbrella.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS3高级应用/umbrella.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="7" lean-forward="true" selection-end-line="37" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -51,8 +60,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="626" />
-    <option name="y" value="147" />
+    <option name="x" value="1105" />
+    <option name="y" value="109" />
     <option name="width" value="1402" />
     <option name="height" value="1047" />
   </component>
@@ -75,6 +84,11 @@
               <item name="learnAndpractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnAndpractice" type="462c0819:PsiDirectoryNode" />
               <item name="CSS3D" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnAndpractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnAndpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS3高级应用" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -124,15 +138,15 @@
       <option name="presentableId" value="Default" />
       <updated>1533867402579</updated>
       <workItem from="1533867403975" duration="8049000" />
-      <workItem from="1534056000232" duration="13654000" />
+      <workItem from="1534056000232" duration="22858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21703000" />
+    <option name="totallyTimeSpent" value="30907000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="626" y="147" width="1402" height="1047" extended-state="0" />
+    <frame x="1105" y="109" width="1402" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989796" visible="true" weight="0.16594517" />
@@ -175,13 +189,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/css3d/3d魔方.html" />
-    <entry file="file://$PROJECT_DIR$/CSS3高级应用/umbrella.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS3D/3DCube.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -191,8 +198,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3D/3Dworld.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="107">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3高级应用/umbrella.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="7" lean-forward="true" selection-end-line="37" selection-end-column="7" />
         </state>
       </provider>
     </entry>
