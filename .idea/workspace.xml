@@ -100,7 +100,11 @@
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
     <property name="last_opened_file_path" value="E:/Download/CSS3D" />
+>>>>>>> 6381286dfbfa6300cf0af3041dfddf881101b235
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
@@ -137,13 +141,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533867402579</updated>
+<<<<<<< HEAD
+      <workItem from="1533867403975" duration="8648000" />
+=======
       <workItem from="1533867403975" duration="8049000" />
+<<<<<<< HEAD
       <workItem from="1534056000232" duration="23557000" />
+=======
+      <workItem from="1534056000232" duration="13654000" />
+>>>>>>> 6381286dfbfa6300cf0af3041dfddf881101b235
+>>>>>>> f2de34b5549ed47cf436a84d045206d410c54266
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="31606000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="8648000" />
+=======
+    <option name="totallyTimeSpent" value="21703000" />
+>>>>>>> 6381286dfbfa6300cf0af3041dfddf881101b235
+>>>>>>> f2de34b5549ed47cf436a84d045206d410c54266
   </component>
   <component name="ToolWindowManager">
     <frame x="1105" y="109" width="1402" height="1047" extended-state="1" />
