@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #content{
+            width: 8.0625rem;
+            margin: 0 auto;
+        }
+        #bg{
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+        }
+        #bg>div{
+            position: absolute;
+            width: 8.0625rem;
+            height: 73.125rem;
+            box-sizing: border-box;
+            background-repeat: no-repeat;
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <div id="bg">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+    </div>
+    <script>
+        const bg = document.getElementById('bg')
+        const domArr = bg.getElementsByTagName('div');
+        for (var i=0;i<domArr.length;i++){
+            domArr[i].style.backgroundImage = 'url(./img/p'+(i+1)+'.png)'
+            domArr[i].style.transform = rotateY() translateZ()
+        }
+        function sizeZ(wd,total) {
+
+        }
+    </script>
+</div>
+</body>
+</html>
