@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<iframe src="http://localhost:8090/storage.html"></iframe>
+<script>
+    // console.log(window.frames[0])
+    // window.frames[0].postMessage('title','成功了')
+    window.addEventListener('message',function (e) {
+      //监听接收localhost:8090发送数据
+      alert(e.data)
+      console.log(e)
+    })
+</script>
+</body>
+</html>

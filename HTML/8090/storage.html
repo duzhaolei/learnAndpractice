@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<button>press</button>
+<script>
+    var btn = document.getElementsByTagName('button')[0];
+    btn.onclick = function () {
+      top.postMessage('title','http://localhost:8089/demo4.html')//向localhost:8089发送数据
+    }
+    // window.addEventListener('message',function (e) {
+    //   // console.log(e)
+    //   alert(e)
+    // })
+</script>
+</body>
+</html>
