@@ -1,0 +1,49 @@
+
+:root {
+  --mainColor: yellowgreen;
+  --fweight: 600;
+  --active: red;
+  --fontsz: 10px;
+}
+
+@custom-selector :--heading h1,h2,h3,h4,h5,h6;
+
+:--heading {
+  margin: 0;
+  border: 1px solid yellowgreen;
+}
+
+@custom-selector :--bodyfz body;
+
+:--bodyfz {
+  font-size: calc(var(--fontsz) * 2);
+}
+
+.component-main {
+  & .test {
+    color: var(--mainColor);
+    font-weight: var(--fweight);
+  }
+  & .tab {
+    color: var(--mainColor);
+  }
+  & .tab__card {
+    color: var(--mainColor);
+  }
+  & .tab--active {
+    color: var(--active);
+  }
+  & .imageSet {
+    width: 45vw;
+    height: 45vw;
+    background: url(timg.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-image: image-set("tree.jpg" 1x, "nier.jpg" 2x);
+  }
+}
+
+.hero:matches(main, .main) {
+  background-color: deepskyblue;
+  font-size: 2rem;
+}

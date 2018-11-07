@@ -1,0 +1,64 @@
+
+:root {
+  --mainColor: yellowgreen;
+  --fweight: 600;
+  --active: red;
+  --fontsz: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  border: 1px solid yellowgreen;
+}
+
+body {
+  font-size: calc(10px * 2);
+  font-size: calc(var(--fontsz) * 2);
+}
+
+.component-main .test {
+    color: yellowgreen;
+    color: var(--mainColor);
+    font-weight: 600;
+    font-weight: var(--fweight);
+  }
+
+.component-main .tab {
+    color: yellowgreen;
+    color: var(--mainColor);
+  }
+
+.component-main .tab__card {
+    color: yellowgreen;
+    color: var(--mainColor);
+  }
+
+.component-main .tab--active {
+    color: red;
+    color: var(--active);
+  }
+
+.component-main .imageSet {
+    width: 45vw;
+    height: 45vw;
+    background: url(images/timg.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-image: tree.jpg;
+  }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .component-main .imageSet {
+    background-image: nier.jpg;
+  }
+}
+
+.component-main .imageSet {
+    background-image: -webkit-image-set(url(images/tree.jpg) 1x, url(images/nier.jpg) 2x);
+    background-image: image-set("tree.jpg" 1x, "nier.jpg" 2x);
+  }
+
+main.hero, .hero.main {
+  background-color: deepskyblue;
+  font-size: 2rem;
+}

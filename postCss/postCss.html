@@ -10,6 +10,7 @@
 <style>
      :root {
         --bgcolor: deepskyblue;
+        --linkcolor: red;
     }
     
     body {
@@ -19,13 +20,36 @@
     div {
         --fzcolor: red;
         color: var(--fzcolor);
-        background-image: image-set( {}
-        )
     }
+    
+    a {
+        color: rgb(0 0 100% / 90%);
+        &:hover {
+            color: rebeccapurple;
+        }
+    }
+    /* a:hover {
+        color: gray(255, 50%)
+    }
+    
+    a:active {
+        color: rebeccapurple
+    }
+    
+    a:focus {
+        background-color: rgb(255 153 0 / 33%);
+        outline: 3px solid hsl(1turn 60% 50%);
+    } */
+    /* a:any-link {
+        color: color(var(--linkcolor) blackness(+20%));
+    } */
 </style>
 
 <body>
     <div>逗比来了</div>
+    <a href="">点我啊
+        <span>我是红色</span>
+    </a>
 </body>
 
 </html>
