@@ -1,5 +1,8 @@
 "use strict";
-
-class f{};
-let a = 25;
-alert(a)
+class person {
+    constructor(age) {
+        this.age = age
+    }
+}
+const xiaowang = new person(30);
+console.log(xiaowang.age)
