@@ -151,6 +151,85 @@ for (let v of arr4) {
 for (let i in arr4) {
     console.log(i)
 }
-for (let v of oneobj) {
-    console.log(v) // oneobj is not iterable
+// for (let v of oneobj) {
+// console.log(v) // oneobj is not iterable
+// }
+
+
+//l类与类的继承
+class person {
+    constructor(age) {
+        this.age = age
+    }
+    tell() {
+        console.log(`年龄是${this.age}`);
+    }
 }
+const xiaowang = new person(30);
+console.log(xiaowang.age)
+console.log(xiaowang.tell())
+
+class man extends person {
+    constructor(age) {
+        super(age);
+        this.arr = [];
+    }
+    set menu(data) {
+        this.arr.push(data)
+    }
+    get menu() {
+        return this.arr
+    }
+    tell() {
+        super.tell();
+        console.log('hello')
+    }
+    static init() {
+        console.log("static")
+    }
+}
+const newname = new man(50);
+console.log(newname.age)
+console.log(newname.tell())
+newname.menu = '😡';
+console.log(newname.menu)
+man.init();
+
+
+// 数组操作
+let foodArr = new Set('🍞🍔🍦🌭'); // set()的变量中每个元素唯一，不可重复
+foodArr.add('🍎')
+foodArr.add('🍎'); //相同的重复添加不生效
+foodArr.delete('🍞'); //删除数组中的某个元素
+
+console.log(foodArr)
+console.log(foodArr.has('🍎')); //true
+console.log(foodArr.has('🍊')); // false
+
+for (let v of foodArr) {
+    console.log(v)
+}
+console.log(foodArr.size)
+foodArr.clear(); //清空数组
+console.log(foodArr.size)
+console.log(foodArr)
+
+let food = new Map();
+let fruit = {},
+    cook = function() {};
+food.set(fruit, '🍊');
+food.set(cook, '🍴');
+console.log(food)
+console.log(food.get(cook));
+console.log(food.size);
+food.delete(fruit)
+console.log(food)
+console.log(food.get(cook));
+console.log(food.size);
+food.clear();
+console.log(food);
+
+//数组快速去重；
+const numArr = [2, 4, 54, 33, 98, 11, 2, 4];
+const newResult = [...new Set(numArr)]
+console.log(newResult);
